@@ -137,5 +137,3 @@ Catatan: data hanya 1 dokumen x 9 degradasi (15 karakter per citra), dan selisih
 metode peringkat 1-6 hanya 1 karakter pada 1-2 citra. Peringkat atas belum tentu bertahan di
 dataset yang lebih besar; temuan yang kuat hanya bahwa `hist_eq` buruk dan `gaussian_unsharp`
 tidak pernah lebih buruk dari tanpa enhancement.
-
-
