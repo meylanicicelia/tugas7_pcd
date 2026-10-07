@@ -17,7 +17,7 @@ Citra Ijazah -> Koreksi rotasi -> Grayscale -> Image Enhancement (median denoise
         |-> Area TTD    -> Thresholding -> Morphology -> CCA   -> PRESENT/ABSENT
                                    -> Hasil Verifikasi
 ```
-2. Grayscale dan enhancement
+## Grayscale dan enhancement
 •Grayscale dipakai karena OCR dan threshold hanya butuh intensitas terang-gelap. Warna tidak membantu, dan data menjadi 1 kanal, bukan 3.
 •Median blur 3x3 (enhancement global) mengganti tiap piksel dengan nilai tengah tetangganya. Cara ini efektif membuang noise bintik (salt-and-pepper) dan tetap menjaga tepi.
 
