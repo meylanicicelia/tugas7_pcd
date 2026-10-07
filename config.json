@@ -1,0 +1,18 @@
+{
+  "_comment": "ROI = fraksi (x, y, w, h) pada citra SETELAH koreksi rotasi. Kalibrasi: python tools/select_roi.py <gambar>",
+  "number_roi": [0.152, 0.905, 0.140, 0.037],
+  "number_pattern": "\\d{12,16}",
+  "global_enhancement": "median_denoise",
+  "default_method": "gaussian_unsharp",
+  "signature_rois": {
+    "rektor": [0.14, 0.715, 0.26, 0.105],
+    "dekan":  [0.64, 0.710, 0.25, 0.120]
+  },
+  "head_signer": "rektor",
+  "signature": {
+    "min_component_area_ratio": 0.002,
+    "min_contrast": 40,
+    "min_ink_ratio": 0.015,
+    "min_width_ratio": 0.15
+  }
+}

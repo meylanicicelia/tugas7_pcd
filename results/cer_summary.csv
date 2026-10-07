@@ -1,0 +1,9 @@
+method,mean_cer
+gaussian_unsharp,0.0
+none,0.0074
+adaptive,0.0148
+clahe_unsharp,0.0148
+median_denoise,0.0148
+otsu,0.0148
+clahe,0.0222
+hist_eq,0.9556
