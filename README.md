@@ -23,8 +23,11 @@ Citra Ijazah -> Koreksi rotasi -> Grayscale -> Image Enhancement (median denoise
 
 Metode yang dibandingkan di area nomor:
 •Histogram equalization: meratakan histogram di seluruh gambar.
+
 •CLAHE: seperti histogram equalization tetapi per blok kecil, dengan batas penguatan (clip limit).
+
 •Unsharp masking: gambar asli dikurangi versi blur-nya, sehingga tepi menjadi lebih tajam.
+
 •Otsu dan adaptive threshold: mengubah gambar menjadi hitam-putih.
 
 
